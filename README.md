@@ -1,2 +1,2 @@
 # vim
-vim comfigs
+vim configs
