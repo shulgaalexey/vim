@@ -21,7 +21,7 @@ set showcmd
 set ruler
 set laststatus=2
 set confirm
-set visualbell
+"set visualbell
 set number
 
 set hlsearch      " Get borred of all yellow, use :nohlsearch to turn it off for a moment
