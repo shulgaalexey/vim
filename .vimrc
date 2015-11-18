@@ -14,6 +14,8 @@ set nocompatible
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
 
+set cindent " c indentation
+
 set hidden
 set confirm
 set wildmenu
@@ -93,10 +95,9 @@ autocmd BufWinLeave * call clearmatches()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "
 " For temporary highlighting whitespaces use
-" :syntax on
-" :set syntax=whitespace
-" :set list
-" :set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+":set syntax=whitespace
+":set list
+":set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 
 
@@ -115,10 +116,10 @@ set number
 "----------------------------------------------------
 "
 " Settings for local .vimrc, which is in the root of the project
-"
+
 " highlight fields for code
-"set colorcolumn=110
-"highlight ColorColumn ctermbg=darkgray
+set colorcolumn=80
+highlight ColorColumn ctermbg=darkgray
 
 set tabstop=8
 set softtabstop=8
