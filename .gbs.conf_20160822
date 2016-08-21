@@ -1,0 +1,61 @@
+[general]
+profile = profile.3.0-mobile
+#profile = profile.3.0-emul32
+#profile = profile.3.0-mobile-a64
+
+###########################################################
+
+[repo.public_3.0_base_arm]
+url = http://165.213.149.200/download/public_mirror/tizen/base/latest/repos/arm/packages/
+#url = http://download.tizen.org/snapshots/tizen/base/latest/repos/arm/packages/
+
+
+[profile.3.0-mobile]
+obs = obs.public
+repos = repo.public_3.0_base_arm,repo.3.0-mobile
+user = a.shulga
+passwdx = XXXXX=
+
+[repo.3.0-mobile]
+url = http://165.213.149.200/download/public_mirror/tizen/mobile/latest/repos/target-TM1/packages/
+#url = http://download.tizen.org/snapshots/tizen/mobile/latest/repos/target-TM1/packages
+
+
+###########################################################
+
+#[repo.public_3.0_base_emul32]
+#url = http://165.213.149.200/download/public_mirror/tizen/base/latest/repos/emulator32/packages/
+
+#[profile.3.0-emul32]
+#obs = obs.public
+#repos = repo.public_3.0_base_emul32,repo.3.0-emul32
+#user = a.shulga
+#passwdx = XXXXX=
+
+#[repo.3.0-emul32]
+#url = http://165.213.149.200/download/public_mirror/tizen/mobile/latest/repos/emulator32-wayland/packages/
+
+
+###########################################################
+
+#[repo.public_3.0_base_arm64]
+#url = http://10.113.63.117/snapshots/base/latest/repos/arm64/packages/
+
+#[profile.3.0-mobile-a64]
+#obs = obs.public
+#repos = repo.public_3.0_base_arm64,repo.3.0-mobile-a64
+#user = a.shulga
+#passwdx = XXXXX=
+
+#[repo.3.0-mobile-a64]
+#url = http://165.213.149.200/download/public_mirror/tizen/mobile/latest/repos/arm64-wayland/packages/
+
+
+###########################################################
+
+
+[obs.public]
+url = https://api.tizen.org
+user = obs_viewer
+passwdx = XXXXX
+
